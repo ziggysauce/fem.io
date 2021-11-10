@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+@media (min-width: 376px) {
+  main { background: url('./images/pattern-background-desktop.svg') no-repeat; }
+  .card { max-width: 400px; }
+}
+
+@media (max-width: 375px) {
+  main { background: url('./images/pattern-background-mobile.svg') no-repeat; }
+  .card { max-width: 350px; }
+}
+
+body { margin: 0; }
+
+main {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: #E0E8FF;
+}
+
+h1 { font-size: 28px; }
+
+button:hover { cursor: pointer; }
+
+h1 + span {
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#change-card {
+  border-radius: 1rem;
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 1.5rem 0 2rem 0;
+}
+
+#change-card-left-group {
+  display: flex;
+  align-items: center;
+}
+
+#change-card-icon {
+  margin: 0 1rem;
+}
+
+#change-card-static {
+  display: flex;
+  flex-direction: column;
+}
+
+#change-btn {
+  font-family: 'Red Hat Display', sans-serif;
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+  font-weight: 700;
+  background: none;
+  border: 0;
+  outline: none;
+  transition: 300ms;
+}
+
+#change-btn:hover {
+  color: #786DFD;
+  transition: 300ms;
+}
+
+#pay-btn {
+  font-family: 'Red Hat Display', sans-serif;
+  padding: 1rem;
+  border-radius: .5rem;
+  background-color: hsl(245, 75%, 52%);
+  color: #FFFFFF;
+  font-weight: 900;
+  border: 0;
+  outline: none;
+  width: 100%;
+  box-shadow: 0px 10px 45px -10px #786DFD;
+  transition: 300ms;
+}
+
+#pay-btn:hover {
+  background-color: #786DFD;
+  transition: 300ms;
+}
+
+#cancel-btn {
+  font-family: 'Red Hat Display', sans-serif;
+  background: none;
+  border: 0;
+  outline: none;
+  margin: 2.5rem 0;
+  font-weight: 900;
+  color: hsl(224, 23%, 55%);
+  transition: 300ms;
+}
+
+#cancel-btn:hover {
+  color: hsl(223, 47%, 23%);
+  transition: 300ms;
+}
+
+.header {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  margin-bottom: .25rem;
+}
+
+h1.header { margin-bottom: 1rem; }
+
+.text { color: hsl(224, 23%, 55%); }
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 1rem;
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.card {
+  border-radius: 1rem;
+  box-shadow: 0px 35px 50px -30px hsl(224, 23%, 55%);
+  margin: 5em;
+  text-align: center;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+}
+
+.card > img {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.card-body { padding: 2em; }
+
+.px-5px { padding: 0 5px; }
