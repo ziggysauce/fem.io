@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo](https://github.com/ziggysauce/fem.io/tree/main/order-summary-component){:target="_blank"}
-- Live Site URL: [Live Site](https://ziggysauce-order-summary-component.netlify.app/){:target="_blank"}
+- Solution URL: [Github Repo](https://github.com/ziggysauce/fem.io/tree/main/order-summary-component)
+- Live Site URL: [Live Site](https://ziggysauce-order-summary-component.netlify.app/)
 
 ## My process
 
